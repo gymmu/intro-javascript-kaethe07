@@ -17,7 +17,9 @@
   <main>
 
     <h1>Einführung in Javascript</h1>
+
     <section>
+
       <h3>Benutzer informieren</h3>
       <div class="content">
         Man kann dem Benutzer eine Nachricht schreiben, wenn ein Knopf
@@ -27,6 +29,7 @@
         <button onclick="sayHello()">Say Hello!!!</button>
       </div>
     </section>
+
     <section>
       <h3>Hintergrund ändern</h3>
       <div class="content">
@@ -36,9 +39,23 @@
         <button onclick="changeBackground()">Hintergrund ändern</button>
       </div>
     </section>
+
+    <section>
+    <h3>Inhalt löschen</h3>
+    <div class="content">
+      Man kann den Inhalt auf Knopfdruck löschen.
+    </div>
+    <div class="center">
+      <p id="to-delete">Hier steht Text der später gelöscht werden soll.</p>
+  <button onclick="deleteText()">Text löschen</button>
+    </div>
+    </section>
+    
+
+
   </main>
 
-
+ 
   <script type="module" src="tests/run.js"></script>
 
 </body>
